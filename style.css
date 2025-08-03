@@ -75,6 +75,10 @@ section {
     gap: 0.5em;
   }
 }
+/* ######################Style for Contact Section############################## */
+#contact {
+  text-align: center;
+}
 
 /* Style for social media icons */
 .social-icons {
