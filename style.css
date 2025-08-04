@@ -4,6 +4,7 @@ body {
   background: #f4f8fb;
   color: #222;
 }
+
 header,
 footer {
   text-align: center;
@@ -11,26 +12,31 @@ footer {
   background: #0e76a8;
   color: #fff;
 }
+
 img.profile {
   display: block;
   margin: 1em auto 2em auto;
   border-radius: 8px;
   width: 160px;
 }
+
 h1,
 h2,
 h3 {
   margin-bottom: 0.3em;
 }
+
 nav a {
   margin: 0 1em;
   text-decoration: none;
   color: #fff;
   font-weight: 500;
 }
+
 nav a:hover {
   text-decoration: underline;
 }
+
 section {
   background: #fff;
   margin: 2em 0;
@@ -38,6 +44,7 @@ section {
   border-radius: 6px;
   box-shadow: 0 2px 8px #eee;
 }
+
 .skills,
 .languages,
 .soft-skills {
@@ -46,6 +53,7 @@ section {
   gap: 0.7em;
   margin-top: 0.6em;
 }
+
 .skills span,
 .languages span,
 .soft-skills span {
@@ -54,25 +62,44 @@ section {
   border-radius: 3px;
   font-size: 0.97em;
 }
+
 .contact a {
   color: #b71c1c;
   text-decoration: none;
   margin-right: 1.5em;
 }
 }
+
 @media (max-width: 650px) {
   section {
     padding: 1em;
   }
+
   body {
     margin: 0 2%;
   }
+
   .skills,
   .languages,
   .soft-skills {
     gap: 0.5em;
   }
 }
+
+/* ############################Style Skills Section */
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.skill {
+  background: #e0f1ff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
 /* ######################Style for Contact Section############################## */
 #contact {
   text-align: center;
@@ -99,15 +126,19 @@ section {
 .social-icons a:hover .fa-linkedin {
   color: #0e76a8;
 }
+
 .social-icons a:hover .fa-github {
   color: #171515;
 }
+
 .social-icons a:hover .fa-whatsapp {
   color: #25d366;
 }
+
 .social-icons a:hover .fa-facebook {
   color: #3b5998;
 }
+
 .social-icons a:hover .fa-envelope {
   color: #c23a2b;
 }
